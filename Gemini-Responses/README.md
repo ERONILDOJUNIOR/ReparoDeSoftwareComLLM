@@ -41,4 +41,5 @@ Clique em um dos itens abaixo para acessar o reparo que o Gemini fez para os alg
 1. [subsequences](subsequences.md): Gera todas as subsequências de uma string.
 1. [to_base](to_base.md): Converte um número para uma base numérica específica.
 1. [topological_ordering](topological_ordering.md): Ordena os vértices de um grafo direcionado acíclico de forma que para cada aresta (u, v), u vem antes de v na ordenação.
+1. [weightededge](weightededge.md): Representa arestas com peso em grafos.
 1. [wrap](wrap.md): Quebra um texto em linhas de largura fixa.
