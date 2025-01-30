@@ -1,16 +1,15 @@
 # Catálogo de Respostas de LLMs para Bugs
 
-Bem-vindo ao catálogo de respostas geradas por LLMs (Modelos de Linguagem de Grande Escala) para diferentes tipos de bugs. Este repositório contém análises detalhadas e soluções propostas por LLMs para os problemas identificados. 
+Bem-vindo ao catálogo de respostas geradas por LLMs (Modelos de Linguagem de Grande Escala) para diferentes tipos de bugs. Este repositório contém os dados coletados para desenvolvimento de Pesquisa em Reparo de Software e LLMs para a disciplina PGCOMP/IC0010 TÓPICOS EM ENGENHARIA DE SOFTWARE I da Universidade Federal da Bahia.
+
+Para coleta de dados foi inserido nos prompts do Gemini, ChatGPT e MetaAI o cógido com erro coletado do repositório [QuixBugs](https://github.com/jkoppel/QuixBugs), seguido do promt `Corrija este código java acima`·
 
 ## Menu de Navegação
 
-Clique em um dos itens abaixo para acessar o conteúdo de cada bug:
+Clique em um dos itens abaixo para acessar os reparos que as LLMs fizeram para os algoritmos com erros disponibilizados pelo repositório [QuixBugs](https://github.com/jkoppel/QuixBugs):
 
-1. [BFS (Breadth-First Search)](bfs.md)  
-   Explicação do bug, análise do código e solução proposta para problemas relacionados ao algoritmo de busca em largura.
+1. [Gemini](https://github.com/ERONILDOJUNIOR/ReparoDeSoftwareComLLM/tree/main/Gemini-Responses)
 
-2. [Bit Count](bitcount.md)  
-   Diagnóstico e reparo de bugs em algoritmos que contam o número de bits ativados em números inteiros.
+2. [ChatGPT](https://github.com/ERONILDOJUNIOR/ReparoDeSoftwareComLLM/tree/main/GPT-Responses)
 
-3. [Bucket Sort](bucket_sort.md)  
-   Detalhes sobre problemas no algoritmo de ordenação por distribuição e como foram corrigidos.
+3. [MetaAI](https://github.com/ERONILDOJUNIOR/ReparoDeSoftwareComLLM/tree/main/MetaAI-Responses)
