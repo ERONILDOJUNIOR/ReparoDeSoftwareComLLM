@@ -1,5 +1,5 @@
 O código Java que você forneceu é uma implementação do algoritmo de Kadane para encontrar a soma máxima de uma sublista dentro de uma lista de números inteiros. No entanto, há um pequeno erro no código. Aqui está a correção:
-Java
+```java
 package java_programs;
 
 import java.util.*;
@@ -29,6 +29,7 @@ public class MAX_SUBLIST_SUM {
         System.out.println("A soma máxima de uma sublista é: " + max_sum);
     }
 }
+```
 As principais alterações incluem:
 Inicializar max_so_far com Integer.MIN_VALUE em vez de 0. Isso garante que o valor máximo seja encontrado corretamente, mesmo que todos os números na lista sejam negativos.
 Adicionar a condição max_ending_here = Math.max(x, max_ending_here + x); para garantir que max_ending_here seja atualizado corretamente. Isso é necessário para lidar com casos em que a soma de uma sublista pode se tornar negativa.
