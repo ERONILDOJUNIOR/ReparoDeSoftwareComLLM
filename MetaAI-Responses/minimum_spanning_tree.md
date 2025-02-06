@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -90,6 +90,7 @@ public class MINIMUM_SPANNING_TREE {
         }
     }
 }
+```
 As principais correções feitas foram:
 Adicionei as classes Node e WeightedEdge para representar os vértices e arestas do grafo, respectivamente.
 Implementei o método equals e hashCode na classe Node para garantir que os vértices sejam corretamente identificados.
