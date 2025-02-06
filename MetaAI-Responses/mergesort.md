@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -70,6 +70,7 @@ public class MergeSort {
         System.out.println("Sorted list: " + sortedList);
     }
 }
+```
 As principais alterações incluem:
 Renomear a classe para MergeSort para seguir as convenções de nomenclatura Java.
 Adicionar Javadoc para documentar os métodos e classes.
