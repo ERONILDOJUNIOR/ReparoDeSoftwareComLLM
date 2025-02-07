@@ -1,5 +1,5 @@
 Segue aqui o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -37,6 +37,7 @@ public class NEXT_PALINDROME {
         System.out.println(next_palindrome(digit_list));
     }
 }
+```
 As principais mudanças incluem:
 Remoção do import desnecessário java.lang.Math.*.
 Substituição do Math.floorDiv por operações de divisão normais, que funcionam corretamente para os casos de uso aqui.
