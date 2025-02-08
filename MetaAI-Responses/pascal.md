@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -56,6 +56,7 @@ public class PASCAL {
         }
     }
 }
+```
 Essa versão do código inclui:
 Comentários para explicar o que cada parte do código faz.
 Um método main para testar a geração do triângulo de Pascal.
