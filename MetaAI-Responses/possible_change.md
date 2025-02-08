@@ -1,5 +1,5 @@
 Aqui está a correção do código Java:
-Java
+```Java
 package java_programs;
 
 import java.util.Arrays;
@@ -43,6 +43,7 @@ public class POSSIBLE_CHANGE {
         System.out.println("Número de maneiras possíveis de alcançar o total: " + possible_change(coins, total));
     }
 }
+```
 Essa versão corrigida inclui:
 Comentários para explicar o que cada parte do código faz.
 Um caso base adicional para lidar com a situação em que não há mais moedas disponíveis.
