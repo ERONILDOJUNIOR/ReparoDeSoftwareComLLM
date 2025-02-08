@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -50,6 +50,7 @@ public class POWERSET {
         System.out.println(result);
     }
 }
+```
 As principais alterações incluem:
 Corrigir a lógica para gerar os subconjuntos, incluindo o caso base para o conjunto vazio.
 Melhorar a legibilidade do código com comentários e nomes de variáveis mais descritivos.
