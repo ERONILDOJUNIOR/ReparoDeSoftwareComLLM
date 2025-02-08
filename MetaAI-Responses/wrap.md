@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -40,6 +40,7 @@ public class WRAP {
         }
     }
 }
+```
 As principais correções foram:
 Adicionar um espaço após o end no text.substring(end + 1) para remover o espaço da linha criada.
 Adicionar uma condição para adicionar o texto restante como uma linha após o loop.
