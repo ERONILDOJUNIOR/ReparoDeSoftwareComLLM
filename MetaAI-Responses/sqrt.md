@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -32,6 +32,7 @@ public class SQRT {
         System.out.println("A raiz quadrada de " + x + " é aproximadamente " + resultado);
     }
 }
+```
 As principais mudanças incluem:
 Adição de uma verificação para garantir que o número seja não negativo, pois a raiz quadrada de um número negativo não é um número real.
 Alteração da condição do while para Math.abs(approx * approx - x) > epsilon, que é uma forma mais precisa de verificar a convergência.
