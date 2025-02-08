@@ -1,5 +1,5 @@
 Segue aqui o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -45,6 +45,7 @@ public class SHORTEST_PATH_LENGTHS {
         return a + b;
     }
 }
+```
 As principais alterações realizadas foram:
 Removido o import desnecessário java.lang.Math.*;
 Alterado a criação da lista edge para usar o método Arrays.asList() diretamente, sem criar uma nova lista.
