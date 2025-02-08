@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -51,6 +51,7 @@ public class REVERSE_LINKED_LIST {
         }
     }
 }
+```
 As alterações incluem:
 Definição da classe Node com os métodos getSuccessor() e setSuccessor().
 Correção do método reverseLinkedList() para atualizar corretamente o prevNode.
