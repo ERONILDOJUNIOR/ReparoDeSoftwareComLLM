@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -46,6 +46,7 @@ public class QuickSort {
         System.out.println("Array ordenado: " + quickSort(arr));
     }
 }
+```
 As principais mudanças foram:
 Renomeei a classe para QuickSort para seguir as convenções de nomenclatura Java.
 Mudei a condição de parada do algoritmo para arr.size() <= 1, pois um array com um elemento já está ordenado.
