@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -36,6 +36,7 @@ public class ToBase {
         System.out.println(toBase(0, 10));   // Saída: 0
     }
 }
+```
 As principais alterações incluem:
 Verificação da validade da base de destino.
 Inversão da ordem dos caracteres na string de resultado.
