@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -57,6 +57,7 @@ public class ShuntingYard {
         System.out.println("Expressão postfix: " + rpntokens);
     }
 }
+```
 As principais correções incluem:
 Definição explícita dos tipos de dados para as variáveis e métodos.
 Uso de List e Deque em vez de ArrayList e ArrayDeque para maior flexibilidade.
