@@ -1,5 +1,5 @@
 Aqui está uma versão corrigida do código:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -99,6 +99,7 @@ public class SHORTEST_PATHS {
         }
     }
 }
+```
 As principais alterações incluem:
 Implementação do algoritmo de Dijkstra para encontrar os caminhos mais curtos.
 Correção da lógica de atualização dos pesos nos nós.
