@@ -1,5 +1,5 @@
 Aqui está uma versão corrigida do código Java:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -63,6 +63,7 @@ public class TopologicalOrdering {
         }
     }
 }
+```
 As principais mudanças incluem:
 Adição de uma classe Node para representar os nós do grafo.
 Uso de um conjunto visited para manter controle dos nós visitados durante a busca em profundidade (DFS).
