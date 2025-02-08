@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -59,6 +59,7 @@ public class NEXT_PERMUTATION {
         System.out.println("Próxima permutação: " + nextPermutation(perm));
     }
 }
+```
 As principais mudanças incluem:
 Renomear o método para nextPermutation para seguir as convenções de nomenclatura Java.
 Adicionar um comentário Javadoc para descrever o propósito do método.
