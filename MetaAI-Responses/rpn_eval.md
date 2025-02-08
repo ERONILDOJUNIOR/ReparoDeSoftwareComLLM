@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -78,6 +78,7 @@ public class RPN_EVAL {
         System.out.println("Resultado: " + result);
     }
 }
+```
 As principais correções incluem:
 Especificação do tipo de dado para a lista tokens.
 Verificação de instância para os tokens antes de realizar operações.
