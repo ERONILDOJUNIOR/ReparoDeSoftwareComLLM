@@ -1,5 +1,5 @@
 Aqui está o código Java corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -72,6 +72,7 @@ public class Sieve {
         System.out.println("Primos até " + max + ": " + primes);
     }
 }
+```
 Mudanças realizadas:
 Renomeei a classe para Sieve (sem acento e seguindo o padrão de nomenclatura Java).
 Adicionei Javadoc para explicar o propósito de cada método.
