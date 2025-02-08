@@ -1,5 +1,5 @@
 Aqui está o código corrigido:
-Java
+```Java
 package java_programs;
 
 import java.util.*;
@@ -92,6 +92,7 @@ public class SHORTEST_PATH_LENGTH {
         System.out.println("O menor caminho tem comprimento " + shortestPathLength);
     }
 }
+```
 As principais mudanças incluem:
 Adicionei uma classe Node para representar os nós do grafo.
 Modifiquei a lógica de atualização das distâncias nos nós não visitados.
