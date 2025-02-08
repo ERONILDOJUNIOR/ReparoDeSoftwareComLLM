@@ -1,5 +1,5 @@
 Segue aqui uma versão corrigida do código:
-Java
+```Java
 package java_programs;
 
 import java.util.ArrayList;
@@ -43,6 +43,7 @@ public class SUBSEQUENCES {
         }
     }
 }
+```
 As principais mudanças incluem:
 Adicionei um Javadoc para o método subsequences para explicar sua funcionalidade.
 Alterei o tipo de retorno do método subsequences para ArrayList<ArrayList<Integer>> para especificar o tipo de elementos na lista.
